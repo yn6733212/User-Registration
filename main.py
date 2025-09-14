@@ -2,6 +2,8 @@ from flask import Flask, request, Response
 from datetime import datetime
 import json
 import requests
+import os
+
 
 # === אתחול Flask ===
 app = Flask(__name__)
